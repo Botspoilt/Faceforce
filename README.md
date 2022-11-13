@@ -1,9 +1,9 @@
 # wifiboss
 #I just Modify This Tools,Real coder Drygdryg
 installing command
-git clone https://github.com/Botspoilt/wifiboss.git
-cd wifiboss
-python3 wifiboss.py
+#git clone https://github.com/Botspoilt/wifiboss.git
+#cd wifiboss
+#python3 wifiboss.py
 
 #use command
 
@@ -36,13 +36,13 @@ python3 wifiboss.py
 Example
 
 
-sudo python3 wifiboss.py -i wlan0 -b 00:90:4C:C1:AC:21 -K
+#sudo python3 wifiboss.py -i wlan0 -b 00:90:4C:C1:AC:21 -K
 Show avaliable networks and start Pixie Dust attack on a specified network:
 
-sudo python3 wifiboss.py -i wlan0 -K
+#sudo python3 wifiboss.py -i wlan0 -K
 Launch online WPS bruteforce with the specified first half of the PIN:
 
-sudo python3 oneshot.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234
+#sudo python3 oneshot.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234
 Start WPS push button connection:s
 
 sudo python3 wifiboss.py -i wlan0 --pbc
